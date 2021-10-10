@@ -188,6 +188,51 @@ body{
 .rows__row div:not(:last-child){
     margin-right: 30px;
 }
+/*-----------------------------------comand-------------------------------*/
+
+.comand {
+    background-color: rgba(245, 244, 250, 1);
+    height: 648px;
+}
+.comand__title {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+.comand__row {
+    display: flex;
+
+}
+.comand__item {
+    flex: 0 0 calc((1170px - 90px)/4);
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.comand__item:not(:last-child){
+    margin-right: 30px;
+
+}
+.comand__body {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 368px;
+}
+.comand__img {
+    max-width: 270px;
+    max-height: 260px;
+}
+.comand__name {
+    font-weight: 500;
+    color: #212121;
+    margin: 30px 0px 10px 0px;
+}
+.comand__position {
+    color: #757575;
+    margin-bottom: 30px;
+}
 
 /*-----------------------------------footer-------------------------------*/
 .footer{
