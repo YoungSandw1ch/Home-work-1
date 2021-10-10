@@ -85,7 +85,8 @@ body{
     flex: 1 0 auto;
 }
 .main__screen {
-    background-color:#2F303A;
+    /* background-color:#2F303A; */
+    background: url(/img/main-img-1.png) center no-repeat;
     height: 600px;
 }
 .screen__row{
